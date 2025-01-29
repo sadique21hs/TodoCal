@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="372.0" prefWidth="560.0" spacing="20" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ct3.HomeController">
+
+    <Label style="-fx-font-size: 24px;" text="Welcome to Home Page!" />
+
+    <Button fx:id="calculateButton" onAction="#handleCalculate" text="Calculate" />
+    <Button fx:id="todoButton" onAction="#handleTodo" text="To-Do List" />
+    <Button fx:id="logoutButton" onAction="#handleLogout" text="Logout" />
+
+</VBox>
