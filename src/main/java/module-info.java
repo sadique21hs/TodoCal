@@ -1,8 +1,8 @@
-module com.example.ct3 {
+module com.example.TodoCal {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens com.example.ct3 to javafx.fxml;
-    exports com.example.ct3;
+    opens com.example.TodoCal to javafx.fxml;
+    exports com.example.TodoCal;
 }
